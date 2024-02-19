@@ -5,6 +5,11 @@
 
 using System.Runtime.InteropServices;
 
+string[] printArr(string[] str)
+{
+    Console.WriteLine(string.Join(", ", str));
+    return str;
+}
 string[] CreateArray(int n)
 {
     string[] array = new string[n];
@@ -13,9 +18,6 @@ string[] CreateArray(int n)
     {
         array[i] = Console.ReadLine()!;
     }
-
-    Console.WriteLine(string.Join(", ", array));
-
     return array;
 }
 
@@ -30,9 +32,26 @@ int CountString(string[] str)
     return count;
 }
 
+string[] ResultArray(string[] str, int count)
+{
+    string[] resArr = new string[count];
+    int j = 0;
+    for (int i = 0; i < str.Length; i++)
+    {
+        if (str[i].Length <= 3) resArr[j] = str[i];
+    }
+    return resArr;
+}
+
 Console.Write("Введите количество строк: ");
 int n = Convert.ToInt32(Console.ReadLine());
 
 string[] array = CreateArray(n);
-CountString(array);
+int h = CountString(array);
+string[] array2 = new string[h];
+array2 = ResultArray(array, h);
+Console.WriteLine("Массив до:");
+printArr(array);
+Console.WriteLine("Массив после:");
+printArr(array2);
 
