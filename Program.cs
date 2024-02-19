@@ -13,22 +13,15 @@ string[] printArr(string[] str)
 string[] CreateArray(int n)
 {
     string[] array = new string[n];
-    Console.WriteLine($"Введите {n} строк через Enter:");
-    for (int i = 0; i < n; i++)
-    {
-        array[i] = Console.ReadLine()!;
-    }
+    Console.WriteLine($"Введите строки через Enter:");
+    for (int i = 0; i < n; i++) array[i] = Console.ReadLine()!;
     return array;
 }
 
 int CountString(string[] str)
 {
     int count = 0;
-    for (int i = 0; i < str.Length; i++)
-    {
-        if (str[i].Length <= 3) count++;
-    }
-    Console.WriteLine($"Количество строк с <= 3 символа: {count}");
+    for (int i = 0; i < str.Length; i++) if (str[i].Length <= 3) count++;
     return count;
 }
 
@@ -38,7 +31,11 @@ string[] ResultArray(string[] str, int count)
     int j = 0;
     for (int i = 0; i < str.Length; i++)
     {
-        if (str[i].Length <= 3) resArr[j] = str[i];
+        if (str[i].Length <= 3)
+        {
+            resArr[j] = str[i];
+            j++;
+        }
     }
     return resArr;
 }

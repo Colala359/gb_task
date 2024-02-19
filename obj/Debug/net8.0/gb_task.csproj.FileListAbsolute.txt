@@ -1,0 +1,15 @@
+C:\Users\Виталя\Desktop\Учеба\c#\gb_task\obj\Debug\net8.0\gb_task.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Виталя\Desktop\Учеба\c#\gb_task\obj\Debug\net8.0\gb_task.AssemblyInfoInputs.cache
+C:\Users\Виталя\Desktop\Учеба\c#\gb_task\obj\Debug\net8.0\gb_task.AssemblyInfo.cs
+C:\Users\Виталя\Desktop\Учеба\c#\gb_task\obj\Debug\net8.0\gb_task.csproj.CoreCompileInputs.cache
+C:\Users\Виталя\Desktop\Учеба\c#\gb_task\obj\Debug\net8.0\gb_task.sourcelink.json
+C:\Users\Виталя\Desktop\Учеба\c#\gb_task\bin\Debug\net8.0\gb_task.exe
+C:\Users\Виталя\Desktop\Учеба\c#\gb_task\bin\Debug\net8.0\gb_task.deps.json
+C:\Users\Виталя\Desktop\Учеба\c#\gb_task\bin\Debug\net8.0\gb_task.runtimeconfig.json
+C:\Users\Виталя\Desktop\Учеба\c#\gb_task\bin\Debug\net8.0\gb_task.dll
+C:\Users\Виталя\Desktop\Учеба\c#\gb_task\bin\Debug\net8.0\gb_task.pdb
+C:\Users\Виталя\Desktop\Учеба\c#\gb_task\obj\Debug\net8.0\gb_task.dll
+C:\Users\Виталя\Desktop\Учеба\c#\gb_task\obj\Debug\net8.0\refint\gb_task.dll
+C:\Users\Виталя\Desktop\Учеба\c#\gb_task\obj\Debug\net8.0\gb_task.pdb
+C:\Users\Виталя\Desktop\Учеба\c#\gb_task\obj\Debug\net8.0\gb_task.genruntimeconfig.cache
+C:\Users\Виталя\Desktop\Учеба\c#\gb_task\obj\Debug\net8.0\ref\gb_task.dll
